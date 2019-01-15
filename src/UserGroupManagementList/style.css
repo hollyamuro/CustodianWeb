@@ -1,0 +1,45 @@
+/* align */
+.align-right{
+    text-align: right;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;  
+}
+
+#create-group-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 100px;
+}
+
+#update-group-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 100px;
+}
+
+#delete-group-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 100px;
+}
+
+#load-group-list-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 100px;
+    background-color: #FFFFFF;
+}

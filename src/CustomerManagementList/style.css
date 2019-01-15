@@ -1,0 +1,65 @@
+
+#invite-mail-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 150px;
+}
+
+#password-mail-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 150px;
+}
+
+#load-customer-list-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 100px;
+    background-color: #FFFFFF;
+}
+
+#import-customer-list-button {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    min-width: 100px;
+    background-color: #FFFFFF;
+}
+
+.cust-row-wrapper-primary {
+    border: 1px solid #007bff;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.cust-row-wrapper-secondary {
+    border: 1px solid #6c757d;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.cust-row-title-wrapper-primary {
+    color: #007bff;
+    word-break: normal;
+    width: 300px;
+}
+
+.cust-row-title-wrapper-secondary {
+    color:  #6c757d;
+}
+
+.cust-name-wrapper{
+    word-break: normal;
+    width: 300px;
+}

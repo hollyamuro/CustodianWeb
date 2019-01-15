@@ -1,0 +1,33 @@
+"use strict";
+
+import {
+	REQUEST_LOAD_GROUPS,
+	RECEIVE_LOAD_GROUPS,
+	REQUEST_CREATE_GROUP,
+	RECEIVE_CREATE_GROUP,
+	REQUEST_UPDATE_GROUP,
+	RECEIVE_UPDATE_GROUP,
+	REQUEST_DELETE_GROUP,
+	RECEIVE_DELETE_GROUP,
+	START_LOADING,
+	STOP_LOADING,
+} from "../actions";
+
+export const isLoading = (state=false, action) => {
+	switch(action.type){
+	case REQUEST_LOAD_GROUPS:
+	case RECEIVE_LOAD_GROUPS:
+	case REQUEST_CREATE_GROUP:
+	case RECEIVE_CREATE_GROUP:
+	case REQUEST_UPDATE_GROUP:
+	case RECEIVE_UPDATE_GROUP:
+	case REQUEST_DELETE_GROUP:
+	case RECEIVE_DELETE_GROUP:
+	case START_LOADING:
+	case STOP_LOADING:
+		return action.isLoading;
+	default:
+		return state;
+	}
+};
+    

@@ -1,0 +1,8 @@
+/public/dist/*_bundle.js
+/public/dist/*_bundle.js.map
+/node_modules
+/log/log*
+/log/err.log
+/log/out.log
+/coverage
+/docs

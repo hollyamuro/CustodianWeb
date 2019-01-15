@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<% include partials/template_head.ejs %>
+</head>
+
+<body>
+	<% include partials/template_body.ejs %>
+	<% include partials/template_nav_header.ejs %>
+
+	<% if(locals.show_popup){ %>
+		<% var popup = locals.popup; %>
+		<% include partials/template_popup.ejs %>
+	<% } %>
+
+	
+	<% if(user_profile.login) { %>
+
+		<% include partials/template_timeout.ejs %>
+		<% include partials/template_sidebar.ejs %>
+
+		<div class="container"></div>
+		<p>
+			<div id="main" class="jumbotron">歡迎光臨
+				<%= title %>
+			</div>
+		</p>
+		</div>
+		<!--container-->
+
+	<% } else { %>
+		<% include partials/template_login.ejs %>
+	<% } %>
+	
+</body>
+<footer>
+	<% include partials/template_footer.ejs %>
+</footer>
+
+</html>

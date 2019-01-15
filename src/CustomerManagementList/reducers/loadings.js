@@ -1,0 +1,33 @@
+"use strict";
+
+import {
+	REQUEST_IMPORT_CUST_LIST,
+	RECEIVE_IMPORT_CUST_LIST,
+	REQUEST_LOAD_CUST_LIST,
+	RECEIVE_LOAD_CUST_LIST,
+	REQUEST_SEND_INVITE_MAIL,
+	RECEIVE_SEND_INVITE_MAIL,
+	REQUEST_SEND_PASSWORD_MAIL,
+	RECEIVE_SEND_PASSWORD_MAIL,
+	START_LOADING,
+	STOP_LOADING,
+} from "../actions";
+
+export const isLoading = (state = false, action) => {
+	switch(action.type){
+	case REQUEST_IMPORT_CUST_LIST:
+	case RECEIVE_IMPORT_CUST_LIST:
+	case REQUEST_LOAD_CUST_LIST:
+	case RECEIVE_LOAD_CUST_LIST:
+	case REQUEST_SEND_INVITE_MAIL:
+	case RECEIVE_SEND_INVITE_MAIL:
+	case REQUEST_SEND_PASSWORD_MAIL:
+	case RECEIVE_SEND_PASSWORD_MAIL:
+	case START_LOADING:
+	case STOP_LOADING:
+		return action.isLoading;
+	default:
+		return state;
+	}
+};
+    

@@ -1,0 +1,81 @@
+body {
+  font: 14px;
+}
+
+/* Sticky footer styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+  background-color: #EFEFEF
+}
+
+.sinopac-header-icon {
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: #404040;
+  color: white;
+}
+
+#main{
+  margin: 0px 10px;
+}
+
+.login-frame {
+  margin-top: 50px;
+}
+
+.menu-title {
+  padding-left: 10px;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+
+.no-permission-alert{
+  margin: 10px;
+}
+
+.no-permission-button {
+  margin: 0px 10px;
+}
+
+/*hr styles*/
+hr.line{
+  border-top: 1px solid #000000;
+}
+
+hr.double-line {
+	border-top: 3px double #000000;
+}
+
+/* align */
+.align-right{
+  text-align: right;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.inline{
+  display: inline-block;  
+}
+
+hr.nav-divider {
+  border-top: 10px solid #e21f23;
+  margin: 0px;
+}
